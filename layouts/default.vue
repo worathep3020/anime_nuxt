@@ -1,12 +1,12 @@
 <template>
-  <v-app id="gim">
+  <v-app id="ani">
     <v-navigation-drawer
       v-model="drawer"
       :mini-variant="miniVariant"
       :clipped="clipped"
       fixed
       app
-      src="https://cdn.vox-cdn.com/thumbor/c4YShhpPqAovZuZqQb3eaGX8I6o=/0x0:1280x720/920x613/filters:focal(613x232:817x436):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66942555/Zekrom_M14.0.png"
+      src="https://a-static.besthdwallpaper.com/here-comes-sabo-wallpaper-750x1334-812_164.jpg"
     >
       <v-list>
         <v-list-item
@@ -30,11 +30,11 @@
       :clipped-left="clipped"
       fixed
       app
-      src="https://thumbs.gfycat.com/DizzyJollyAnole-small.gif"
+      src="https://wallpapermemory.com/uploads/647/naruto-wallpaper-hd-2048x1080-396624.jpg"
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <h1>
-        <a href="https://myanimelist.net/">
+        <a href="https://myanimelist.net/" target="_blank">
           <img src="https://myanimelist.net/images/mal-logo-xsmall.png" />
         </a>
       </h1>
@@ -61,16 +61,6 @@ export default {
           title: 'ANIMELIST',
           to: '/',
         },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire',
-        },
-        {
-          icon: 'mdi-account-check',
-          title: 'My Profile',
-          to: '/Profile',
-        },
       ],
       miniVariant: false,
       right: true,
@@ -81,7 +71,8 @@ export default {
 </script>
 
 <style>
-#gim {
-  background-image: url(https://i.pinimg.com/originals/77/46/90/774690aeb4e69f4f05d8b828ab892148.jpg);
+#ani {
+  background-image: url(https://cdn.hipwallpaper.com/m/94/41/jCku1d.png);
+  background-size: cover;
 }
 </style>
